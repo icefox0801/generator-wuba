@@ -1,0 +1,43 @@
+{
+  "name": "generator-wuba",
+  "version": "0.0.1",
+  "description": "A magical generator",
+  "homepage": "https://github.com/icefox0801/generator-wuba#readme",
+  "author": "icefox0801@hotmail.com",
+  "files": [
+    "app"
+  ],
+  "main": "index.js",
+  "keywords": [
+    "yeoman-generator",
+    "yeoman-generator"
+  ],
+  "scripts": {
+    "test": "gulp",
+    "prepublish": "gulp prepublish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icefox0801/generator-wuba.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icefox0801/generator-wuba/issues"
+  },
+  "dependencies": {
+    "yeoman-generator": "^0.21.1",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "yeoman-assert": "^2.0.0",
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0"
+  }
+}
